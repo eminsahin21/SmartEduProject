@@ -23,7 +23,7 @@
 									<h2><a href="/courses/<%= item.slug %>" title=""><%= item.name %></a></h2>
 								</div>
 								<div class="course-desc">
-									<p><%= item.description %></p>
+									<p><%= item.description.substring(0,100) + "..." %></p>
 								</div>
 							</div>
 							<div class="course-meta-bot">
